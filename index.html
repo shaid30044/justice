@@ -1,13 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justice</title>
-</head>
-<body>
-    <header>
 
+    <!-- daisy ui -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- styles -->
+
+    <style>
+        .font-poppins {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .font-eb {
+            font-family: 'EB Garamond', serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header section -->
+
+    <header class="mx-60">
+
+        <!-- nav section -->
+
+        <div class="navbar my-6">
+            <div class="navbar-start">
+                <a><img src="images/logo2.png" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal font-poppins">
+                    <li><a>Home</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Cases</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn w-60 h-14 font-poppins text-lg font-semibold text-white bg-[#B68C5A]">Free Consultation</a>
+            </div>
+        </div>
     </header>
 </body>
+
 </html>
