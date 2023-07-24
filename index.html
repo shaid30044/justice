@@ -21,6 +21,10 @@
     <!-- styles -->
 
     <style>
+        .bg-img {
+            background-image: url(images/banner.png)
+        }
+
         .font-poppins {
             font-family: 'Poppins', sans-serif;
         }
@@ -35,11 +39,11 @@
 
     <!-- header section -->
 
-    <header class="mx-60">
+    <header class="mx-40 mt-6">
 
         <!-- nav section -->
 
-        <div class="navbar my-6">
+        <div class="navbar">
             <div class="navbar-start">
                 <a><img src="images/logo2.png" alt=""></a>
             </div>
@@ -53,10 +57,39 @@
                 </ul>
             </div>
             <div class="navbar-end">
-                <a class="btn w-60 h-14 font-poppins text-lg font-semibold text-white bg-[#B68C5A]">Free Consultation</a>
+                <a class="btn w-60 h-14 font-poppins text-lg font-semibold text-white bg-[#B68C5A]">Free
+                    Consultation</a>
             </div>
         </div>
     </header>
+
+    <!-- main section -->
+
+    <main class="mx-40">
+
+        <!-- banner section -->
+
+        <div class="bg-img bg-contain bg-no-repeat bg-top h-[570px] mt-20">
+            <div class="text-center">
+                <h1 class="text-7xl font-eb font-extrabold leading-snug text-white pt-20">
+                    We Provide Effective
+                    <br>
+                    Legal Solutions
+                </h1>
+                <p class="font-poppins leading-7 text-white pt-6 pb-8">
+                    There are many variations of passages of Lorem Ipsum available, but the majority
+                    <br>
+                    have suffered alteration in some form, by injected humour.
+                </p>
+                <div>
+                    <input type="text" placeholder="Search your services"
+                        class="input font-poppins w-full max-w-xl mr-4" />
+                    <button
+                        class="btn w-32 h-12 font-poppins text-lg font-semibold text-white border-none bg-[#B68C5A]">Search</button>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
