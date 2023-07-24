@@ -21,10 +21,17 @@
     <!-- styles -->
 
     <style>
-        .bg-img {
+        .bg-banner-img {
             background-image:
                 linear-gradient(0deg, #111 0%, rgba(17, 17, 17, 0.00) 100%),
-                url(images/banner.png);
+                url("images/banner.png");
+        }
+
+        .bg-carousel-img {
+            background-image:
+                linear-gradient(180deg, #111111c9 0%, #111111c9 100%), url("images/banner.png");
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         .font-poppins {
@@ -79,7 +86,7 @@
 
         <!-- banner section -->
 
-        <div class="bg-img bg-contain bg-no-repeat bg-top h-[580px] mt-20 rounded-lg">
+        <div class="bg-banner-img bg-contain bg-no-repeat bg-top h-[580px] mt-20 rounded-lg">
             <div class="text-center">
                 <h1 class="text-7xl font-eb font-extrabold leading-snug text-white pt-20">
                     We Provide Effective
@@ -111,20 +118,24 @@
                     suffered alteration in some form, by injected humour.
                 </p>
                 <div class="grid grid-cols-3">
-                    <div class="flex flex-col justify-center items-center p-16 border-r-2 bordeer-[#E7E7E7] border-b-2 bordeer-[#E7E7E7]">
+                    <div
+                        class="flex flex-col justify-center items-center p-16 border-r-2 bordeer-[#E7E7E7] border-b-2 bordeer-[#E7E7E7]">
                         <img src="images/business.png" alt="">
                         <h3 class="text-3xl font-extrabold font-eb title-color pt-8 pb-6">Business Law</h3>
                         <p class="leading-6 text-color pb-8">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
                             alteration in some form, by injected humour.
                         </p>
                         <a href=""><img src="images/Frame.png" alt=""></a>
                     </div>
-                    <div class="flex flex-col justify-center items-center p-16 border-r-2 bordeer-[#E7E7E7] border-b-2 bordeer-[#E7E7E7]">
+                    <div
+                        class="flex flex-col justify-center items-center p-16 border-r-2 bordeer-[#E7E7E7] border-b-2 bordeer-[#E7E7E7]">
                         <img src="images/criminal.png" alt="">
                         <h3 class="text-3xl font-extrabold font-eb title-color pt-8 pb-6">Criminal Law</h3>
                         <p class="leading-6 text-color pb-8">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
                             alteration in some form, by injected humour.
                         </p>
                         <a href=""><img src="images/Frame.png" alt=""></a>
@@ -133,7 +144,8 @@
                         <img src="images/child.png" alt="">
                         <h3 class="text-3xl font-extrabold font-eb title-color pt-8 pb-6">Child Law</h3>
                         <p class="leading-6 text-color pb-8">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
                             alteration in some form, by injected humour.
                         </p>
                         <a href=""><img src="images/Frame.png" alt=""></a>
@@ -142,7 +154,8 @@
                         <img src="images/education.png" alt="">
                         <h3 class="text-3xl font-extrabold font-eb title-color pt-8 pb-6">Education Law</h3>
                         <p class="leading-6 text-color pb-8">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
                             alteration in some form, by injected humour.
                         </p>
                         <a href=""><img src="images/Frame.png" alt=""></a>
@@ -151,7 +164,8 @@
                         <img src="images/divorce.png" alt="">
                         <h3 class="text-3xl font-extrabold font-eb title-color pt-8 pb-6">Divorce Law</h3>
                         <p class="leading-6 text-color pb-8">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
                             alteration in some form, by injected humour.
                         </p>
                         <a href=""><img src="images/Frame.png" alt=""></a>
@@ -160,10 +174,66 @@
                         <img src="images/tax.png" alt="">
                         <h3 class="text-3xl font-extrabold font-eb title-color pt-8 pb-6">Tax Law</h3>
                         <p class="leading-6 text-color pb-8">
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered
                             alteration in some form, by injected humour.
                         </p>
                         <a href=""><img src="images/Frame.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- client section -->
+
+        <div class="text-center mb-40">
+            <h3 class="text-4xl font-extrabold font-eb title-color">What Our Client Say</h3>
+            <p class="leading-7 font-poppins text-color pt-6 pb-16">
+                There are many variations of passages of Lorem Ipsum available, but the majority have
+                <br>
+                suffered alteration in some form, by injected humour.
+            </p>
+            <div class="carousel w-full h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full bg-carousel-img rounded-xl">
+                    <div class="flex flex-col justify-center items-center px-28">
+                        <img src="images/man.png" alt="">
+                        <h3 class="text-2xl font-extrabold font-eb text-white pt-6">Awlad Hossain</h3>
+                        <p class="leading-6 font-poppins text-white pt-1 pb-8">UIX Designer</p>
+                        <p class="leading-6 font-poppins text-[#F3F3F3] pt-1 pb-8">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                        </p>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="bg-transparent border-0 text-white"><img src="images/Frame-1.png" alt=""></a>
+                        <a href="#slide2" class="bg-transparent border-0 text-white"><img src="images/Frame-2.png" alt=""></a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full bg-carousel-img rounded-xl">
+                    <div class="flex flex-col justify-center items-center px-28">
+                        <img src="images/man.png" alt="">
+                        <h3 class="text-2xl font-extrabold font-eb text-white pt-6">Awlad Hossain</h3>
+                        <p class="leading-6 font-poppins text-white pt-1 pb-8">UIX Designer</p>
+                        <p class="leading-6 font-poppins text-[#F3F3F3] pt-1 pb-8">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                        </p>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="bg-transparent border-0 text-white"><img src="images/Frame-1.png" alt=""></a>
+                        <a href="#slide3" class="bg-transparent border-0 text-white"><img src="images/Frame-2.png" alt=""></a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full bg-carousel-img rounded-xl">
+                    <div class="flex flex-col justify-center items-center px-28">
+                        <img src="images/man.png" alt="">
+                        <h3 class="text-2xl font-extrabold font-eb text-white pt-6">Awlad Hossain</h3>
+                        <p class="leading-6 font-poppins text-white pt-1 pb-8">UIX Designer</p>
+                        <p class="leading-6 font-poppins text-[#F3F3F3] pt-1 pb-8">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                        </p>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="bg-transparent border-0 text-white"><img src="images/Frame-1.png" alt=""></a>
+                        <a href="#slide1" class="bg-transparent border-0 text-white"><img src="images/Frame-2.png" alt=""></a>
                     </div>
                 </div>
             </div>
